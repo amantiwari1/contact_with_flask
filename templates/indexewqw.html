@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Contact Me</h1>
+        <form action="{{ url_for('stud') }}" method="POST">
+                Name <input type="text" name="name1" placeholder="Name" required><br>
+                EMAIL <input type="text" name="email" placeholder="EMAIL" required><br>
+                PHONE NUMBER <input type="text" name="pnum" placeholder="PHONE NUMBER" required><br>
+                MESSAGE <input type="text" name="mess" placeholder="MESSAGE" required><br>
+                <input type="submit">
+        </form>   
+</body>
+</html>
